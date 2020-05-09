@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  background-image: linear-gradient(to right, #4d7dd3, #9198e5);
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80vw;
+  margin: 0 auto;
+  background: rgba(100, 100, 100, 0.2);
+}
+
+#description {
+  margin-top: 0;
+}
+
+#survey-form {
+  width: 50vw;
+}
+
+.item-group1 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+}
+
+.item-group1 label {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.item-group1 input {
+  height: 40px;
+  margin-bottom: 10px;
+  text-align: center;
+  font-size: 1.2em;
+  color: #ddd;
+  background-color: rgba(255, 250, 250, 0.2);
+  border-radius: 5px;
+  border: none;
+}
+
+.item-group2 {
+  display: flex;
+  justify-content: center;
+  margin: 50px auto;
+}
+
+select#dropdown {
+  background: rgba(255, 250, 250, 0.2);
+}
+
+.four-radio {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+
+.item-group3 p {
+  text-align: center;
+}
+
+.item-group3 input,
+.item-group3 span {
+  vertical-align: middle;
+}
+
+.item-group3 > div input {
+  width: 17px;
+  height: 17px;
+}
+
+.img1 {
+  width: 48px;
+  height: 48px;
+  margin: 0 auto;
+  background: url(images/radio-img.png) -78px -78px;
+  border: 1px purple solid;
+  border-radius: 50%;
+}
+
+.img2 {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(images/radio-img.png) -10px -10px;
+    border: 1px purple solid;
+    border-radius: 50%;
+}
+
+.img3 {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(images/radio-img.png) -78px -10px;
+    border: 1px purple solid;
+    border-radius: 50%;
+}
+
+.img4 {
+    width: 48px;
+    height: 48px;
+    margin: 0 auto;
+    background: url(images/radio-img.png) -10px -78px;
+    border: 1px purple solid;
+    border-radius: 50%;
+}
+
+.checkboxes {
+  display: grid;
+  grid-template-rows: repeat(5, 1fr);
+  margin-bottom: 50px;
+}
+
+.checkboxes > div {
+  padding: 15px;
+  text-align: left;
+  border: 1px solid #ddd;
+}
+
+#advice {
+  display: block;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  font-size: 1.2em;
+  color: white;
+  background-color: rgba(255, 250, 250, 0.2);
+  border: 1px solid #ddd;
+}
+
+#submit {
+  display: block;
+  width: 80px;
+  height: 40px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+}
