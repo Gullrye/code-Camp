@@ -17,10 +17,10 @@
 
       <div class="item-group1">
         <label for="name" id="name-label">姓名</label>
-        <input type="text" id="name" placeholder="Enter your name">
+        <input type="text" id="name" placeholder="Enter your name" required>
 
         <label for="email" id="email-label">邮箱</label>
-        <input type="email" id="email" placeholder="Enter your email">
+        <input type="email" id="email" placeholder="Enter your email" required>
 
         <label for="number" id="number-label">年龄</label>
         <input type="number" min="1" max="99" id="number" placeholder="Enter your age">
@@ -29,15 +29,15 @@
       <div class="item-group2">
         <p>您现在从事什么工作？</p>
         <select name="" id="dropdown">
-          <option value="">未选择</option>
-          <option value="">教育</option>
-          <option value="">互联网</option>
-          <option value="">建筑</option>
-          <option value="">机械</option>
-          <option value="">生物</option>
-          <option value="">化学</option>
-          <option value="">学生</option>
-          <option value="">其他</option>
+          <option>未选择</option>
+          <option>教育</option>
+          <option>互联网</option>
+          <option>建筑</option>
+          <option>机械</option>
+          <option>生物</option>
+          <option>化学</option>
+          <option>学生</option>
+          <option>其他</option>
         </select>
       </div>
 
@@ -45,19 +45,19 @@
         <p>您每周的阅读时间是多久？</p>
         <div class="four-radio">
           <div>
-            <div class="img1"></div><input type="radio" name="reading-time"><span>7 小时以上</span>
+            <div class="img1"></div><input type="radio" name="reading-time" value="seven"><span>7 小时以上</span>
           </div>
 
           <div>
-            <div class="img2"></div><input type="radio" name="reading-time"><span>4 ~ 7 小时</span>
+            <div class="img2"></div><input type="radio" name="reading-time" value="four"><span>4 ~ 7 小时</span>
           </div>
 
           <div>
-            <div class="img3"></div><input type="radio" name="reading-time"><span>4 小时以下</span>
+            <div class="img3"></div><input type="radio" name="reading-time" value="less"><span>4 小时以下</span>
           </div>
 
           <div>
-            <div class="img4"></div><input type="radio" name="reading-time"><span>其他</span>
+            <div class="img4"></div><input type="radio" name="reading-time" value="none"><span>其他</span>
           </div>
         </div>
       </div>
@@ -65,11 +65,11 @@
       <div class="item-group4">
         <p style="text-align: center;">您平时进行阅读有哪些主要原因？</p>
         <div class="checkboxes">
-          <div><input type="checkbox" value=""><span>看小说娱乐身心</span></div>
-          <div><input type="checkbox" value=""><span>看书增加知识储备</span></div>
-          <div><input type="checkbox" value=""><span>习惯看书了</span></div>
-          <div><input type="checkbox" value=""><span>学技术</span></div>
-          <div><input type="checkbox" value=""><span>爱看爽文，上瘾了</span></div>
+          <div><input type="checkbox" value="relax"><span>看小说娱乐身心</span></div>
+          <div><input type="checkbox" value="know"><span>看书增加知识储备</span></div>
+          <div><input type="checkbox" value="like"><span>习惯看书了</span></div>
+          <div><input type="checkbox" value="learn"><span>学技术</span></div>
+          <div><input type="checkbox" value="addicted"><span>爱看爽文，上瘾了</span></div>
         </div>
       </div>
 
